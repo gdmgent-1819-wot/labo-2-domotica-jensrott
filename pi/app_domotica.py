@@ -7,7 +7,7 @@ import sys
 import random
 from math import floor, ceil
 
-serviceAccountKey = '../serviceAccountKey.json'
+serviceAccountKey = '../config/serviceAccountKey.json'
 databaseURL = 'https://wot1-domotica.firebaseio.com/'
 
 try:
