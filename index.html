@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Domotica</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+
+<body>
+  <section>
+    <div class="register-container">
+      <form class="signup">
+        <h1>Signup</h1>
+        <input type="email" placeholder="E-mail" class="email-signup">
+        <input type="password" placeholder="Password" class="password-signup">
+        <input type="submit" value="Signup">
+      </form>
+    </div>
+    <div class="login-container">
+      <form class="login">
+        <h1>Login</h1>
+        <input type="email" placeholder="E-mail" class="email-login">
+        <input type="password" placeholder="Password" class="password-login">
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </section>
+  <div class="message"></div>
+
+  <section>
+    <main class="main-container" style="display: none;">
+      <div class="grid-container"></div>
+      <input type="submit" value="Logout" class="logout">
+    </main>
+  </section>
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
