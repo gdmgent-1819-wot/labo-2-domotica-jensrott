@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <section>
+  <section class="login-register-section">
     <div class="register-container">
       <form class="signup">
         <h1>Signup</h1>
@@ -29,16 +29,21 @@
       </form>
     </div>
   </section>
-  <div class="message"></div>
 
-  <section>
-    <main class="main-container" style="display: none;">
+  <div class="message" style="display: none;"></div>
+
+  <section class="main-board-section">
+
+    <main class="main-container">
       <div class="grid-container"></div>
-      <input type="submit" value="Logout" class="logout">
+      <input id="logout" type="submit" value="Logout" class="logout">
     </main>
   </section>
 
+
   <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/auth.js"></script>
   <script src="./assets/js/app.js"></script>
 </body>
 
